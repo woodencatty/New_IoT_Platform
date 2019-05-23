@@ -1,0 +1,28 @@
+{
+  "name": "device",
+  "version": "1.0.0",
+  "description": "IoT Device",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodencatty/New_IoT_Platform.git"
+  },
+  "keywords": [
+    "IoT",
+    "Rpi",
+    "Device"
+  ],
+  "author": "WoodenCatty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodencatty/New_IoT_Platform/issues"
+  },
+  "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  }
+}

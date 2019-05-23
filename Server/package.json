@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "IoT server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodencatty/New_IoT_Platform.git"
+  },
+  "keywords": [
+    "IoT",
+    "Rpi",
+    "server"
+  ],
+  "author": "WoodenCatty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodencatty/New_IoT_Platform/issues"
+  },
+  "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme"
+}

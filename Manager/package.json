@@ -1,0 +1,28 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "IoT manager",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodencatty/New_IoT_Platform.git"
+  },
+  "keywords": [
+    "IoT",
+    "Rpi",
+    "manager"
+  ],
+  "author": "WoodenCatty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodencatty/New_IoT_Platform/issues"
+  },
+  "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme",
+  "dependencies": {
+    "mosca": "^2.8.3"
+  }
+}
