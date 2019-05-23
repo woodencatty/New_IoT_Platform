@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme",
   "dependencies": {
-    "mosca": "^2.8.3"
+    "mosca": "^2.8.3",
+    "winston": "^3.2.1"
   }
 }

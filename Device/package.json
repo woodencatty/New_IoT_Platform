@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme",
   "dependencies": {
-    "mqtt": "^2.18.8"
+    "mqtt": "^2.18.8",
+    "winston": "^3.2.1"
   }
 }

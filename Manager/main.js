@@ -16,12 +16,16 @@ var settings = {
 var server = new mosca.Server(settings);
  
 server.on('clientConnected', function(client) {
-    console.log('client connected', client.id);
+    console.log('client connected', client);
 });
  
 // fired when a message is received
 server.on('published', function(packet, client) {
-  console.log('Published', packet.payload);
+  console.log('Published', packet);
+});
+
+server.on('subscribed', function(packet, client) {
+  console.log('subscribed', packet);
 });
  
 server.on('ready', setup);
