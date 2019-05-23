@@ -24,6 +24,7 @@
   "homepage": "https://github.com/woodencatty/New_IoT_Platform#readme",
   "dependencies": {
     "mosca": "^2.8.3",
+    "request": "^2.88.0",
     "winston": "^3.2.1"
   }
 }
