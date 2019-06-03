@@ -34,3 +34,6 @@ server.on('ready', setup);
 function setup() {
   console.log('Mosca server is up and running');
 }
+
+var init = require('./init.js')
+init.register();

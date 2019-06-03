@@ -20,15 +20,26 @@ router.get('/', function(req, res, next) {
 
 /* POST register. */
 router.post('/manager', function(req, res, next) {
-  mng_List.push(req.body);
+  let tempInfo = req.body;
 
-  res.send('Manager Registered');
+  tempInfo.role = "Manager";
+  tempInfo.Address = req.ip;
+
+  mng_List.push(tempInfo);
+  
+  res.send(tempInfo);
 });
 
 router.post('/device', function(req, res, next) {
-  dev_List.push(req.body);
+  let tempInfo = req.body;
 
-  res.send('Device Registered');
+  tempInfo.role = "Device";
+  tempInfo.Address = req.ip;
+  tempInfo.Manage = "MNG-01";
+
+  mng_List.push(tempInfo);
+
+  res.send(tempInfo);
 });
 
 module.exports = router;
