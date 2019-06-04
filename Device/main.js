@@ -1,8 +1,8 @@
 var mqtt = require('mqtt')
 var client  = mqtt.connect('mqtt://localhost/mqtt')
  
-var init = require('./init.js')
-init.register();
+var restapi = require('./RESTAPI.js')
+restapi.register2server();
 
 client.on('connect', function () {
   client.subscribe('presence', function (err) {

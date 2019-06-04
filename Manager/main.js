@@ -1,5 +1,12 @@
 var mosca = require('mosca');
- 
+
+
+var restapi = require('./RESTAPI.js')
+var webService = require('./webService.js')
+restapi.register2server();
+
+
+
 var ascoltatore = {
   //using ascoltatore
   type: 'mongo',
@@ -35,5 +42,3 @@ function setup() {
   console.log('Mosca server is up and running');
 }
 
-var init = require('./init.js')
-init.register();
